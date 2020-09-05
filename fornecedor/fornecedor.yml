@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    password: helloworld
+    username: root
+    url: jdbc:mysql://localhost:3308/fornecedor?allowPublicKeyRetrieval=true&useSSL=false
+  jpa:
+    hibernate:
+      ddl-auto: create
