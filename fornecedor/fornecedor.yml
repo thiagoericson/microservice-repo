@@ -5,4 +5,4 @@ spring:
     url: jdbc:mysql://localhost:3308/fornecedor?allowPublicKeyRetrieval=true&useSSL=false
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
